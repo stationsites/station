@@ -286,13 +286,28 @@ input.button,
 /*muted - hover*/
 
 /** WHITE **/
-/*large*/
 
+:not(.header) input:not([type='checkbox'], [type='radio'], [type='button']), :not(.header) textarea, .fls_shortcode_section textarea
+{
+    box-shadow: none!important;
+    border-radius: var(--uip-border-radius)!important;
+    border-color: var(--uip-button-primary-border-color)!important;
+    background-color: var(--uip-color-base-2)!important;
+    height: auto!important;
+}
+
+/*large*/
+:not(.header) input:not([type='checkbox'], [type='radio'], [type='button']), :not(.header) textarea, .fls_shortcode_section textarea
+{
+    padding: var(--uip-padding-xxs)!important;
+}
 
 /*small*/
 
 
 /*WHITE - hover*/
+
+
 
 
 /**** CARDS & METABOXES ****/
