@@ -1,8 +1,99 @@
 
 /******* GLOBAL ********/
 
+html  {
+    --uip-logo: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTYuMjcgMjA3LjE5Ij48ZGVmcz48c3R5bGU+LmNscy0xe2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJTaGFwZV8zOF9jb3B5IiBkYXRhLW5hbWU9IlNoYXBlIDM4IGNvcHkiIGNsYXNzPSJjbHMtMSI+PGcgaWQ9IlNoYXBlXzM4X2NvcHktMiIgZGF0YS1uYW1lPSJTaGFwZSAzOCBjb3B5Ij48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xOTEuNTgsNDIuMTYsMTAxLjM5LjczYTguMDgsOC4wOCwwLDAsMC02LjcsMEw3NS4zMiw5LjYxYTgsOCwwLDAsMCwwLDE0LjYyTDE4NC44Nyw3NC41OWE4LDgsMCwwLDAsMTEuNC03LjNWNDkuNDdBOCw4LDAsMCwwLDE5MS41OCw0Mi4xNlptMCw1My41M0wxNjksODUuNGE4LDgsMCwwLDAtMTEuMzgsNy4zMlYxMjkuOWE4LjA2LDguMDYsMCwwLDEtNC42Niw3LjNsLTQzLjUsMjAuMkE4LDgsMCwwLDEsOTgsMTUwLjExVjExMi43NWE4LDgsMCwwLDAtNC42Ny03LjNMNzAuODIsOTVhOCw4LDAsMCwwLTExLjQyLDcuM1YxODQuOWE4LDgsMCwwLDAsNC42NSw3LjI5bDMwLjYxLDE0LjI1YTgsOCwwLDAsMCw2Ljc2LDBsOTAuMTctNDEuNTlhOCw4LDAsMCwwLDQuNjgtNy4zVjEwM0E4LDgsMCwwLDAsMTkxLjU2LDk1LjY5Wk0xMDEuMzcsODguMmwyMS4zLTkuODFhOCw4LDAsMCwwLDAtMTQuNkw0My40NywyNy4xNmE4LDgsMCwwLDAtNi43OCwwbC0zMiwxNUE4LDgsMCwwLDAsMCw0OS40M1YxNTcuNTZhOCw4LDAsMCwwLDQuNjgsNy4zbDIwLjc0LDkuNTRhOCw4LDAsMCwwLDExLjQtNy4zMVY3NC41NGE4LDgsMCwwLDEsMTEuMzUtNy4zM2w0Ni41MywyMUE4LDgsMCwwLDAsMTAxLjM3LDg4LjJaIi8+PC9nPjwvZz48L2c+PC9zdmc+);
+    --uip-color-primary: hsla(40, 60%, 60%, 1);
+    --uip-color-primary-lighter: hsla(40, 60%, 80%, 1);
+    --uip-color-primary-darker:  hsla(40, 60%, 40%, 1);
+    --uip-color-accent: hsl(180, 60%, 30%);
+    --uip-color-accent-lighter: hsl(180, 60%, 40%);
+    --uip-color-accent-darker: hsl(180, 60%, 20%);
+    --uip-color-green: #007a4c;
+    --uip-color-green-lighter: rgba(50, 210, 150, 0.21);
+    --uip-color-green-darker: #005d3a;
+    --uip-color-orange: #ca7900;
+    --uip-color-orange-lighter: rgba(250, 160, 90, 0.21);
+    --uip-color-orange-darker: #9e4b0c;
+    --uip-color-red: rgb(201, 71, 107);
+    --uip-color-red-lighter: rgb(240, 80, 110, 0.2);
+    --uip-color-red-darker: rgb(158, 54, 82);
+    --uip-color-base-0: hsla(40, 40%, 88%, 1);
+    --uip-color-base-1: hsla(40, 40%, 94%, 1);
+    --uip-color-base-2: hsla(40, 40%, 99%, 1);
+    --uip-text-color-base: #444444;
+    --uip-text-color-emphasis: hsla(40, 40%, 10%, 1);
+    --uip-text-color-muted: #757588;
+    --uip-text-color-inverse: #fff;
+    --uip-darken-backdrop: rgba(0, 0, 0, 0.3);
+    --uip-notification-background: #333;
+    --uip-backdrop-color: rgba(255, 255, 255, 0.78);
+    --uip-padding-xxxs: 5px;
+    --uip-padding-xxs: 10px;
+    --uip-padding-xs: 20px;
+    --uip-padding-s: 30px;
+    --uip-padding-m: 50px;
+    --uip-padding-l: 75px;
+    --uip-padding-button: 15px 30px;
+    --uip-margin-xxxs: 2px;
+    --uip-margin-xxs: 5px;
+    --uip-margin-xs: 10px;
+    --uip-margin-s: 15px;
+    --uip-margin-m: 30px;
+    --uip-margin-l: 60px;
+    /*--uip-body-font-family: Poppins, sans-serif;
+    --uip-header-font-family: var(--uip-body-font-family);*/
+    --uip-text-bold: 500;
+    --uip-text-xxs: 8px;
+    --uip-text-xs: 10px;
+    --uip-text-s: 12px;
+    --uip-text-m: 14px;
+    --uip-text-l: 16px;
+    --uip-text-xl: 18px;
+    --uip-text-xxl: 25px;
+    --uip-body-font-size: 13px;
+    --uip-border-radius: 0px;
+    --uip-border-circle: 50%;
+    --uip-border-width: 1px;
+    --uip-border-color: transparent;
+    --uip-button-border-radius: var(--uip-border-radius);
+    --uip-button-border-color: transparent;
+    --uip-button-border-width: 2px;
+    --uip-button-primary-border-color: transparent;
+    --uip-button-primary-background: var(--uip-color-primary);
+    --uip-button-primary-color: #fff;
+    --uip-button-primary-background-active: var(--uip-color-primary-darker);
+    --uip-button-second-background: transparent;
+    --uip-button-second-font: var(--uip-text-color-emphasis);
+    --uip-button-second-border-color: var(--uip-text-color-emphasis);
+    --uip-button-second-border-width: 2px;
+    --uip-button-second-background-active: var(--uip-text-color-emphasis);
+    --uip-button-second-font-active: #fff;
+    --uip-button-second-border-color-active: var(--uip-text-color-emphasis);
+    --uip-button-ghost-background       : ;
+    --uip-button-ghost-font: ;
+    --uip-button-ghost-border-color: ;
+    --uip-button-ghost-border-width: 1px;
+    --uip-button-danger-border-color: transparent;
+    --uip-button-page-action-border-color: transparent;
+    --uip-box-shadow-small: 0 1px 1px rgba(0, 0, 0, 0.08);
+    --uip-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    --uip-box-shadow-large: 0 12px 48px rgb(0 0 0 / 30%), 0 32px 80px rgb(0 0 0 / 10%);
+    --uip-checkbox-border: #c1c1c1;
+    --uip-card-border: var(--uip-border-width) solid var(--uip-border-color);
+    --uip-card-shadow-spread: 0;
+    --uip-card-shadow-blur: 0;
+    --uip-card-shadow-color: transparent;
+    --uip-card-header-background: var(--uip-color-base-2);
+    --uip-card-header-font: var(--uip-text-color-emphasis);
+    --uip-card-header-border-color: var(--uip-text-color-emphasis);
+    --uip-card-header-border-width: 2px;
+}
+
+
 /**** BODY ****/
 
+body {background: var(--uip-color-base-0)!important;}
 
 
 /**** BUTTONS & INPUT ****/
