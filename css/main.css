@@ -159,19 +159,21 @@ b, strong {
 
 /*large*/
 #wpcontent .uip-button-primary,
+.wp-core-ui input.button-primary,
 .wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active{
     padding: var(--uip-padding-button)!important;   
             font-size: 15px!important;
 }
 
 /*small*/
+
  {
     padding: var(--uip-padding-xxs)!important;
     font-size: 10px!important;
 }
 
 /*primary - hover*/
-.wp-core-ui .button-primary:hover,
+.wp-core-ui input.button-primary:hover,
 #wpcontent .uip-button-primary:hover,
 .wrap .add-new-h2:hover, .wrap .add-new-h2:active:hover, .wrap .page-title-action:hover, .wrap .page-title-action:active:hover
 {
@@ -187,7 +189,6 @@ b, strong {
 .media-modal .media-frame-router .media-router .media-menu-item,
 #wpcontent .uip-tab-item,
 .wp-core-ui .button:not(input),
-.wp-core-ui select,
 .subsubsub li a,
 .wp-switch-editor,
 .wp-core-ui .button, 
@@ -219,7 +220,6 @@ b, strong {
 /*small*/
 #wpcontent .uip-tab-item,
 .wp-core-ui .button:not(input),
-.wp-core-ui select,
 .subsubsub li a,
 .wp-switch-editor,
 .wp-core-ui .button, 
@@ -237,7 +237,6 @@ b, strong {
 .inside input[type='button']:hover,
 #wpcontent .uip-tab-item-active,
 .wp-core-ui .button:hover,
-.wp-core-ui select:hover,
 .subsubsub li a:hover,
 .subsubsub li a.current,
 .tmce-active .switch-tmce,
@@ -256,7 +255,7 @@ b, strong {
 #post-search-input,
 #side-sortables .category-add select,
 .inside input:not([type='checkbox'], [type='radio']),
-input.button,
+input.button:not(.button-primary),
 .media-menu .media-menu-item,
 .wp-core-ui select
 {
@@ -280,7 +279,6 @@ input.button,
 #post-search-input,
 #side-sortables .category-add select,
 .inside input:not([type='checkbox'], [type='radio']),
-input.button,
 .media-menu .media-menu-item,
 .wp-core-ui select{
         padding: var(--uip-padding-xxs)!important;
@@ -351,7 +349,17 @@ input[type]:focus, select:focus, textarea:focus
 
 /*level 1*/
 
+
+
 /*level 2*/
+
+form {
+    background: var(--uip-color-base-1)!important ;
+    border-radius: var(--uip-border-radius)!important;
+    padding:var(--uip-padding-m)!important;
+    box-shadow:none!important;
+    margin-bottom:var(--uip-margin-s)!important;
+}
 
 /*metabox simple*/
 
