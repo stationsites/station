@@ -1,0 +1,317 @@
+
+/****** HIDE ******/
+
+.fluent-mail-app .logo img, {
+display:none!important;}
+
+/****** BORDER TRANSPARENT ******/
+
+div.mce-toolbar-grp,
+.wp-editor-expand #wp-content-editor-tools,
+.postbox:not(#kaliforms_forms_builder) *:not(input, a),
+.welcome-panel *{
+    border-color:transparent!important;
+}
+/****** BACKGROUND TRANSPARENT ******/
+html[uip-admin-theme=true] #major-publishing-actions {
+    background:transparent!important;
+}
+
+/**** FONTS *****/
+
+/* primary color */
+.el-date-table td.today span,
+.el-date-table td.available:hover,
+.el-picker-panel__shortcut:hover,
+.el-picker-panel__icon-btn:hover,
+.el-switch__label.is-active{
+    color: var(--uip-color-primary)!important;
+}
+
+
+
+/**** BUTTONS & INPUT ****/
+
+/** PRIMARY **/
+
+.el-button--success,
+.el-button--primary
+{
+    background-color: var(--uip-color-primary)!important;
+    border-color: var(--uip-color-primary)!important;
+    color: var(--uip-text-color-inverse)!important;
+    text-transform: lowercase;
+    font-weight: var(--uip-text-bold)!important;
+    height:auto!important;
+    border-style:solid!important;
+    height: auto!important;
+    line-height: 1em!important;
+}
+
+/*large*/
+.el-button--success,
+.el-button--primary
+{
+    padding: var(--uip-padding-button)!important;   
+            font-size: 15px!important;
+}
+
+/*small*/
+ {
+    padding: var(--uip-padding-xxs)!important;
+    font-size: 10px!important;
+}
+
+/*primary - hover*/
+.el-button--success:hover,
+.el-button--primary:hovere:hover
+{
+    background-color: var(--uip-color-primary-darker)!important;
+    border-color: var(--uip-color-primary-darker)!important;
+    color: var(--uip-text-color-inverse)!important;}
+
+/** SECONDARY **/
+
+.el-radio-button__inner,
+.el-button--primary.is-plain,
+.el-button,
+.fsmtp_conncection_selected
+
+{
+    background: var(--uip-button-second-background)!important;
+    border-color: var(--uip-button-second-border-color)!important;
+    color: var(--uip-button-second-font)!important;
+    border-width: var(--uip-button-second-border-width)!important;
+    text-transform: lowercase;
+    border-style:solid!important;
+    height: auto!important;
+    line-height: 1em!important;
+    font-weight:var(--uip-text-bold)!important;
+    margin-right:5px!important;
+}
+
+/*large*/
+.fsmtp_conncection_selected
+ {
+        padding: var(--uip-padding-button)!important;
+        font-size: 15px!important;
+}
+
+/*small*/
+.el-radio-button__inner,
+.el-button--primary.is-plain,
+.el-button
+{
+    padding: var(--uip-padding-xxs)!important;
+    font-size: 10px!important;
+}
+
+/*secondary - hover*/
+.el-button--primary.is-plain:hover,
+.el-radio-button__original-radio:checked+.el-radio-button__inner,
+.el-radio-button__orig-radio:checked+.el-radio-button__inner,
+.el-button:hover
+{
+    background: var(--uip-button-second-background-active)!important;
+    border-color: var(--uip-button-second-border-color-active)!important;
+    color: var(--uip-button-second-font-active)!important;
+}
+/** MUTED **/
+
+
+{
+    background: var(--uip-color-base-1)!important;
+    border-color: var(--uip-button-primary-border-color)!important;
+    color: var(--uip-button-second-font)!important;
+    border-width: var(--uip-button-second-border-width)!important;
+    text-transform: lowercase;
+    border-style:solid!important;
+    height: auto!important;
+    line-height: 1em!important;
+    font-weight:var(--uip-text-bold)!important;
+    border-radius:var(--uip-border-radius)!important;
+}
+
+/*large*/
+
+
+/*small*/
+{
+        padding: var(--uip-padding-xxs)!important;
+        font-size: 10px!important;
+}
+
+/*muted - hover*/
+
+/** WHITE **/
+/*large*/
+
+
+/*small*/
+
+
+/*WHITE - hover*/
+
+/** MINIMAL **/
+.el-button--mini{
+    padding: var(--uip-padding-xxs)!important;
+    background:transparent!important;
+    color:var(--uip-text-color)!important;
+}
+/** Minimal - Hover **/
+.el-button--mini:hover {}
+
+
+/** WARNING **/
+
+.el-button--danger {
+    background-color: var(--uip-color-red)!important;
+    border-color: var(--uip-color-red)!important;
+    color: var(--uip-text-color-inverse)!important;
+    text-transform: lowercase;
+    font-weight: var(--uip-text-bold)!important;
+    padding: var(--uip-padding-button)!important;
+    height: auto!important;
+
+}
+
+
+/** Warning - HOVER **/
+.el-button--danger:hover {
+   background: var(--uip-color-red-darker)!important;
+    border-color: var(--uip-color-red-darker)!important;
+    color: var(--uip-text-color-inverse)!important;
+}
+
+
+
+
+
+/**** CARDS & METABOXES ****/
+
+/** HEADER **/
+
+/*large*/
+.fluent-mail-app .header,
+.box_wrapper .box_header
+{
+    font-size: var(--uip-text-l)!important;
+    text-transform: lowercase;
+    color: var(--uip-card-header-font)!important;
+    background-color: var(--uip-card-header-background)!important;
+    border: var(--uip-card-header-border-width) solid var(--uip-card-header-border-color)!important;
+    border-radius: var(--uip-border-radius)!important;
+    padding: var(--uip-padding-xs) var(--uip-padding-s)!important;
+    display: flex!important ;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:700!important;
+    margin-bottom: var(--uip-margin-s)!important;
+}
+
+
+/*small*/
+.postbox-header,
+.media-frame-title
+{
+    padding: var(--uip-padding-xs);
+    background-color: var(--uip-color-base-1);
+    color: var(--uip-text-color-base);
+    font-size: var(--uip-body-font-size);
+    border-width: 0px;
+        line-height: 1em!important;
+    height: auto!important;
+}
+
+
+/** BODY**/
+
+/*level 1*/
+
+.box_wrapper .box_body{
+    border-radius: var(--uip-border-radius)!important;
+    padding:0px!important;
+    padding:1px!important;
+}
+
+/*level 2*/
+
+.fluent-mail-app .fluent-mail-body .content
+{
+    background: var(--uip-color-base-1)!important ;
+    border-radius: var(--uip-border-radius)!important;
+    padding:var(--uip-padding-m)!important;
+    box-shadow:none!important;
+    margin-bottom:var(--uip-margin-s)!important;
+}
+
+/*metabox simple*/
+
+
+
+/**** TABLES ****/
+
+/** HEADER **/
+
+
+/** ROWS **/
+
+
+/** CELLS **/
+
+
+/* PLUGIN SPECIFIC */
+
+.fluent-mail-app .logo:before {
+    content: "dashboard";
+}
+.fluent-mail-app .logo {
+    margin-left: 0px;
+}
+
+.fluent-mail-app .fluent-mail-main-menu-items .fluent-mail-navigation {
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+
+.el-checkbox__label {
+    width: auto;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+.el-input-group__append, .el-input-group__prepend {
+    background-color: var(--uip-button-second-background)!important;
+    border: none!important;
+    padding: 0px!important;
+    top: -1px!important;
+}
+
+
+
+ul.fss_log_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul.fss_log_items li {
+    border: none;
+    background: var(--uip-color-base-0);
+    margin: 5px;
+    padding: 20px;
+    width: calc(50% - 50px);
+    display: flex!important;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ul.fss_log_items li .item_header {
+    font-weight: 700;
+    color: var(--uip-card-header-font);}
+
+.log-viewer .el-collapse-item__content {
+    padding:1px;
+}
+
+.fsmtp_conncection_selected i.fstmp_check_icon svg {
+    fill:var(--uip-color-primary-darker)!important;
+}
