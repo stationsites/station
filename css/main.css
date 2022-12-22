@@ -191,7 +191,7 @@ b, strong {
 .wp-core-ui .button:not(input),
 .subsubsub li a,
 .wp-switch-editor,
-.wp-core-ui .button, 
+.wp-core-ui :not(input).button, 
 .wp-core-ui .button-secondary
 {
     background: var(--uip-button-second-background)!important;
@@ -222,7 +222,7 @@ b, strong {
 .wp-core-ui .button:not(input),
 .subsubsub li a,
 .wp-switch-editor,
-.wp-core-ui .button, 
+.wp-core-ui :not(input).button, 
 .wp-core-ui .button-secondary{
     padding: var(--uip-padding-xxs)!important;
     font-size: 10px!important;
@@ -236,7 +236,7 @@ b, strong {
 #publish.button:hover,
 .inside input[type='button']:hover,
 #wpcontent .uip-tab-item-active,
-.wp-core-ui .button:hover,
+.wp-core-ui :not(input).button:hover,
 .subsubsub li a:hover,
 .subsubsub li a.current,
 .tmce-active .switch-tmce,
@@ -289,7 +289,7 @@ input.button:not(.button-primary),
 
 /** WHITE **/
 
-:not(.header) input:not([type='checkbox'], [type='radio'], [type='button']), :not(.header) textarea, .fls_shortcode_section textarea
+:not(.header) input:not([type='checkbox'], [type='radio'], [type='button'], .button), :not(.header) textarea, .fls_shortcode_section textarea
 {
     box-shadow: none!important;
     border-radius: var(--uip-border-radius)!important;
@@ -299,7 +299,7 @@ input.button:not(.button-primary),
 }
 
 /*large*/
-:not(.header) input:not([type='checkbox'], [type='radio'], [type='button']), :not(.header) textarea, .fls_shortcode_section textarea
+:not(.header) input:not([type='checkbox'], [type='radio'], [type='button'], .button), :not(.header) textarea, .fls_shortcode_section textarea
 {
     padding: var(--uip-padding-xxs)!important;
 }
