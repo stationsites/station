@@ -92,17 +92,33 @@ html  {
 
 
 /****** BORDER TRANSPARENT ******/
-
+hr,
 div.mce-toolbar-grp,
 .wp-editor-expand #wp-content-editor-tools,
-.postbox:not(#kaliforms_forms_builder) *:not(input, a),
-.welcome-panel *{
+.postbox *:not(input, a),
+.welcome-panel *,
+{
+    border-width:0px!important;
     border-color:transparent!important;
 }
 /****** BACKGROUND TRANSPARENT ******/
+.highlight,
+.compat-item table, 
+.compat-item table *,
 html[uip-admin-theme=true] #major-publishing-actions {
     background:transparent!important;
 }
+
+
+/****** NO BOX SHADOW ******/
+
+/**** NO BOX SHADOW****/
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat
+{
+    box-shadow:none!important;
+}
+
 
 /**** BODY ****/
 
@@ -130,14 +146,14 @@ b, strong {
 #wpcontent .uip-button-primary
 {
     background-color: var(--uip-color-primary)!important;
-    border-color: var(--uip-color-primary)!important;
     color: var(--uip-text-color-inverse)!important;
     text-transform: lowercase;
     font-weight: var(--uip-text-bold)!important;
     height:auto!important;
-    border-style:solid!important;
-    height: auto!important;
     line-height: 1em!important;
+    border-radius: var(--uip-border-radius)!important;
+    border-style:solid!important;
+    border-color: var(--uip-color-primary)!important;
 }
 
 /*large*/
@@ -174,15 +190,16 @@ b, strong {
 .wp-core-ui .button-secondary
 {
     background: var(--uip-button-second-background)!important;
-    border-color: var(--uip-button-second-border-color)!important;
     color: var(--uip-button-second-font)!important;
-    border-width: var(--uip-button-second-border-width)!important;
     text-transform: lowercase;
-    border-style:solid!important;
     height: auto!important;
     line-height: 1em!important;
     font-weight:var(--uip-text-bold)!important;
     margin-right:5px!important;
+    border-radius: var(--uip-border-radius)!important;
+    border-style:solid!important;
+    border-color: var(--uip-button-second-border-color)!important;
+    border-width: var(--uip-button-second-border-width)!important;
 }
 
 /*large*/
@@ -236,7 +253,8 @@ b, strong {
 #side-sortables .category-add select,
 .inside input:not([type='checkbox'], [type='radio']),
 input.button,
-.media-menu .media-menu-item
+.media-menu .media-menu-item,
+.wp-core-ui select
 {
     background: var(--uip-color-base-1)!important;
     border-color: var(--uip-button-primary-border-color)!important;
@@ -259,7 +277,8 @@ input.button,
 #side-sortables .category-add select,
 .inside input:not([type='checkbox'], [type='radio']),
 input.button,
-.media-menu .media-menu-item {
+.media-menu .media-menu-item,
+.wp-core-ui select{
         padding: var(--uip-padding-xxs)!important;
         font-size: 10px!important;
 }
@@ -290,9 +309,18 @@ input.button,
     color: var(--uip-text-color-base);
     font-size: var(--uip-body-font-size);
     border-width: 0px;
-        line-height: 1em!important;
+    line-height: 1em!important;
     height: auto!important;
 }
+
+.postbox-header h2.hndle {
+    padding: 0px!important;
+    color: var(--uip-text-color-emphasis);    
+    font-weight:700!important;
+    font-size: var(--uip-text-l)!important;
+    text-transform: lowercase;
+}
+
 
 .postbox .handle-order-higher, .postbox .handle-order-lower, .postbox .handlediv {height:auto!important;}
 
@@ -303,6 +331,16 @@ input.button,
 /*level 2*/
 
 /*metabox simple*/
+
+.postbox, .welcome-panel {
+    box-shadow: none!important;
+    margin-bottom: var(--uip-margin-m);
+    border: none!important;
+    border-radius: var(--uip-border-radius);
+    background: var(--uip-color-base-0);
+    color: var(--uip-text-color-base);
+}
+
 
 .postbox .inside,
 #major-publishing-actions,
