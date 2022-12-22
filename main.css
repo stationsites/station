@@ -94,7 +94,14 @@ html  {
 /**** BODY ****/
 
 body {background: var(--uip-color-base-0)!important;}
+a {
+    color: var(--uip-color-accent);}
+a:active, a:hover {
+    color: var(--uip-color-accent-lighter); 
+}
 
+b, strong {
+    font-weight: 700;}
 
 /**** BUTTONS & INPUT ****/
 
