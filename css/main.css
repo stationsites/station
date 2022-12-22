@@ -142,8 +142,9 @@ b, strong {
 /**** BUTTONS & INPUT ****/
 
 /** PRIMARY **/
-
-#wpcontent .uip-button-primary
+.wp-core-ui .button-primary,
+#wpcontent .uip-button-primary,
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active
 {
     background-color: var(--uip-color-primary)!important;
     color: var(--uip-text-color-inverse)!important;
@@ -157,7 +158,8 @@ b, strong {
 }
 
 /*large*/
-#wpcontent .uip-button-primary{
+#wpcontent .uip-button-primary,
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active{
     padding: var(--uip-padding-button)!important;   
             font-size: 15px!important;
 }
@@ -169,7 +171,9 @@ b, strong {
 }
 
 /*primary - hover*/
-#wpcontent .uip-button-primary:hover 
+.wp-core-ui .button-primary:hover,
+#wpcontent .uip-button-primary:hover,
+.wrap .add-new-h2:hover, .wrap .add-new-h2:active:hover, .wrap .page-title-action:hover, .wrap .page-title-action:active:hover
 {
     background-color: var(--uip-color-primary-darker)!important;
     border-color: var(--uip-color-primary-darker)!important;
@@ -307,7 +311,11 @@ input.button,
 
 /*WHITE - hover*/
 
-
+input[type]:focus, select:focus, textarea:focus
+{
+    border-color: var(--uip-color-primary-darker)!important;
+    box-shadow: none!important;
+}
 
 
 /**** CARDS & METABOXES ****/
