@@ -1,0 +1,197 @@
+html {
+/*    --uip-button-border-width: 1px;*/
+	--uip-padding-button: 8px 32px;
+    --font-h1:600 var(--uip-text-xl)/200% Poppins, sans-serif;
+    --font-h2:600 var(--uip-text-l)/200% Poppins, sans-serif;
+    --font-h3:600 var(--uip-text-m)/200% Poppins, sans-serif;
+    --font-h4:600 var(--uip-text-s)/200% Poppins, sans-serif;
+    --font-h5:600 var(--uip-text-xs)/200% Poppins, sans-serif;
+    --font-h6:600 var(--uip-text-xxs)/200% Poppins, sans-serif;
+    --font-p:400 var(--uip-text-m)/200% Poppins, sans-serif;
+    --uip-border-style:solid;
+    --uip-padding-xxxs: 2px;
+    --uip-padding-xxs: 4px;
+    --uip-padding-xs: 8px;
+    --uip-padding-s: 16px;
+    --uip-padding-m: 32px;
+    --uip-padding-l: 64px;
+    --uip-margin-xxxs: 2px;
+    --uip-margin-xxs: 4px;
+    --uip-margin-xs: 8px;
+    --uip-margin-s: 16px;
+    --uip-margin-m: 32px;
+    --uip-margin-l: 64px;
+    --uip-text-bold: 500;
+    --uip-text-xxs: 7px!important;
+    --uip-text-xs: 9px!important;
+    --uip-text-s: 10px!important;
+    --uip-text-m: 12px!important;
+    --uip-text-l: 18px!important;
+    --uip-text-xl: 24px!important;
+    --uip-text-xxl: 30px!important;
+    --uip-body-font-size: 14px;
+}
+
+
+/******CARDS******/
+
+/***CARD CONTAINER***/
+html {
+    --st-cont-padding:0px;
+    --st-cont-margin: 0px auto var(--uip-margin-s);
+    --st-cont-border-color:transparent;
+}
+
+/***CARD HEADER***/
+html{
+    --st-head-padding:var(--uip-padding-xs) var(--uip-padding-s);
+    --st-head-margin:0px;
+    --st-head-font:var(--font-h2);
+    --st-head-color:var(--uip-text-color-emphasis);
+    --st-head-background:var(--uip-color-base-1);
+    --st-head-border-style:var(--uip-border-style);
+    --st-head-border-width:var(--uip-border-width);
+    --st-head-border-color:var(--uip-border-color);
+    --st-head-border-radius:var(--uip-border-radius);
+    --st-head-flex-direction: row;
+    --st-head-align-items: center;
+    --st-head-justify-content: space-between;
+}
+
+
+/***CARD BODY***/
+
+html {
+    --st-card-padding :var(--uip-padding-s);
+    --st-card-margin:var(--uip-margin-s) 0px;
+    --st-card-background:var(--uip-color-base-0);
+    --st-card-border-style:var(--uip-border-style);
+    --st-card-border-width:var(--uip-border-width);
+    --st-card-border-color:var(--uip-canvas-background);
+    --st-card-border-radius:var(--uip-border-radius);
+}
+
+
+/******INPUTS******/
+
+html {
+    --st-input-margin:var(--uip-margin-xxxs);
+    --st-input-padding: var(--uip-padding-xs) var(--uip-padding-s);
+    --st-input-font:var(--font-p);
+    --st-input-border-radius: var(--uip-border-radius);
+    --st-input-border-width: var(--uip-button-border-width);
+    --st-input-border-style:solid;
+    --st-input-border-color:transparent;
+    --st-input-background: var(--uip-color-base-1)!important;
+    --st-input-color:var(--uip-color-base);
+}
+
+html {
+    --st-check-margin:var(--uip-margin-xxxs);
+    --st-check-padding: var(--uip-padding-s);
+    --st-check-border-radius: var(--uip-border-radius);
+    --st-check-border-width: var(--uip-button-border-width);
+    --st-check-border-style:solid;
+    --st-check-border-color:transparent;
+    --st-check-background: var(--uip-color-base-2);
+    --st-check-color:var(--uip-color-base);
+}
+
+
+/***hover + active***/
+
+html {
+    --st-input-act-border-color:var(--uip-color-base-2);
+    --st-input-act-background: var(--uip-color-base-1);
+    --st-input-act-color:var(--uip-color-base);
+}
+
+/******BUTTONS******/
+
+/***text-button***/
+
+html  {
+    --st-btn-padding: var(--uip-padding-xs) var(--uip-padding-s);
+    --st-btn-margin:var(--uip-margin-xxxs);
+    --st-btn-font: var(--font-h3);
+    --st-btn-border-radius: var(--uip-border-radius);
+	--st-btn-border-width: var(--uip-button-border-width);
+ }
+
+
+/***strip styles***/
+html {
+    --st-li-a-padding:0px;
+    --st-li-a-margin:0px;
+    --st-li-a-line-height:100%;
+    --st-li-a-background:transparent;
+    --st-li-a-color:inherit;
+}
+
+/***btn normal***/
+html  {   
+    --st-btn-border-color: var(--uip-button-border-color);
+    --st-btn-background:var(--uip-color-base-1);
+    --st-btn-color:var(--uip-text-color-emphasis);
+}
+
+/***btn normal - hover***/
+html  {   
+    --st-btn-hov-border-color: var(--uip-button-border-color);
+    --st-btn-hov-background:var(--uip-color-base-2);
+    --st-btn-hov-color:var(--uip-text-color-emphasis);
+}
+
+/***btn normal - active***/
+html  {   
+    --st-btn-act-border-color: var(--uip-button-border-color);
+    --st-btn-act-background:var(--uip-color-base-2);
+    --st-btn-act-color:var(--uip-text-color-emphasis);
+}
+
+
+
+/***btn primary***/
+html  {   
+    --st-btn-pri-border-color: var(--uip-button-border-color);
+    --st-btn-pri-background:var(--uip-color-primary);
+    --st-btn-pri-color:var(--uip-text-color-inverse);
+}
+
+/***btn primary - hover***/
+html  {   
+    --st-btn-pri-hov-border-color: var(--uip-button-border-color);
+    --st-btn-pri-hov-background:var(--uip-color-primary-darker);
+    --st-btn-pri-hov-color:var(--uip-text-color-inverse);
+}
+
+/***btn primary - active***/
+html {   
+    --st-btn-pri-act-border-color: var(--uip-button-border-color);
+    --st-btn-pri-act-background:var(--uip-color-primary-darker);
+    --st-btn-pri-act-color:var(--uip-text-color-inverse);
+}
+
+
+/***btn secondary***/
+html  {   
+    --st-btn-sec-border-color: var(--uip-button-border-color);
+    --st-btn-sec-background:var(--uip-color-accent);
+    --st-btn-sec-color:var(--uip-text-color-inverse);
+}
+
+/***btn secondary - hover***/
+ html  {   
+    --st-btn-sec-hov-border-color: var(--uip-button-border-color);
+    --st-btn-sec-hov-background:var(--uip-color-accent-darker);
+    --st-btn-sec-hov-color:var(--uip-text-color-inverse);
+}
+
+/***btn secondary - active***/
+html {   
+    --st-btn-sec-act-border-color: var(--uip-button-border-color);
+    --st-btn-sec-act-background:var(--uip-color-accent-darker);
+    --st-btn-sec-act-color:var(--uip-text-color-inverse);
+}
+
+

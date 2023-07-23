@@ -1,0 +1,139 @@
+#titlediv > div.inside,
+/*.pp-ext-promo {display:none;}*/
+
+#wpcontent {
+    padding: 20px 50px;
+}
+
+
+.button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button), li a,
+a.page-title-action {
+	padding:var(--st-btn-padding)!important;
+	margin:var(--st-btn-margin)!important;
+	font: var(--st-btn-font)!important;
+	border: var(--st-btn-border-width) solid var(--st-btn-border-color)!important;
+	border-radius: var(--st-btn-border-radius)!important;
+	text-transform: lowercase!important;
+	background:var(--st-btn-background);
+	color:var(--st-btn-color);
+}
+
+.button:hover,
+button:hover,
+li a:hover {
+	background:var(--st-btn-hov-background);
+	color:var(--st-btn-hov-color);
+	border-color:var(--st-btn-hov-border-color);
+}
+
+li.
+li:hover {
+	padding:var(--st-li-a-padding);
+	background:var(--st-li-a-background);
+	color:var(--st-li-a-color);
+	line-height:var(--st-li-a-line-height);
+
+}
+
+li a.current {
+	background:var(--st-btn-act-background)!important;
+	color:var(--st-btn-act-color)!important;
+	border-color:var(--st-btn-act-border-color)!important;
+}
+
+.button.primary, 
+.page-title-action,
+.button-primary,
+input#publish.button-primary {
+	background:var(--st-btn-pri-background)!important;
+	color:var(--st-btn-pri-color)!important;
+	border-color:var(--st-btn-pri-border-color);
+}
+
+.button.primary:hover, 
+.page-title-action:hover,
+.button-primary:hover {
+	background:var(--st-btn-pri-hov-background)!important;
+	color:var(--st-btn-pri-hov-color)!important;
+	border-color:var(--st-btn-pri-hov-border-color);
+}
+
+.button.secondary, 
+.button-secondary {
+	background:var(--st-btn-sec-background)!important;
+	color:var(--st-btn-sec-color)!important;
+	border-color:var(--st-btn-sec-border-color);
+}
+
+.button.secondary:hover, 
+.button-secondary:hover {
+	background:var(--st-btn-sec-hov-background)!important;
+	color:var(--st-btn-sec-hov-color)!important;
+	border-color:var(--st-btn-sec-hov-border-color);
+}
+
+
+input:not(.components-text-control__input, [type="checkbox"], [type="radio"]), select, textarea {
+	padding:var(--st-input-padding)!important;
+	margin:var(--st-input-margin)!important;
+	font: var(--st-input-font)!important;
+	border: var(--st-input-border-width) solid var(--st-input-border-color)!important;
+	border-radius: var(--st-input-border-radius)!important;
+	background:var(--st-input-background)!important;
+	color:var(--st-input-color)!important;
+	height: auto!important;
+}
+
+input[type=checkbox], input[type=radio] {
+	padding:var(--st-check-padding)!important;
+	margin:var(--st-check-margin)!important;
+	font: var(--st-check-font)!important;
+	border: var(--st-check-border-width) solid var(--st-check-border-color)!important;
+	border-radius: var(--st-check-border-radius)!important;
+	color:var(--st-check-color)!important;
+	background-color:var(--st-check-background)!important;
+	height: auto!important;
+}
+
+input[type=checkbox]:checked {
+	background-color:var(--uip-color-primary)!important;
+
+}
+
+input:hover, select:hover, textarea:hover,
+input:active, select:active, textarea:active,
+input:focused, select:focused, textarea:focused  {
+	background:var(--st-input-act-background)!important;
+	color:var(--st-input-act-color)!important;
+	border-color:var(--st-input-act-border-color);
+}
+
+.postbox {
+	padding:var(--st-cont-padding)!important;
+	margin:var(--st-cont-margin)!important;
+	border-color: var(--st-cont-border-color)!important;
+}
+
+
+.postbox-header {
+	padding:var(--st-head-padding)!important;
+	margin:var(--st-head-margin)!important;
+	font: var(--st-head-font)!important;
+	border: var(--st-head-border-width) solid var(--st-head-border-color)!important;
+	border-radius: var(--st-head-border-radius)!important;
+	background:var(--st-head-background)!important;
+	color:var(--st-head-color)!important;
+	height: auto!important;
+	display:flex;
+	flex-direction: var(--st-head-flex-direction);
+    align-items: var(--st-head-align-items);
+    justify-content: var(--st-head-justify-content);
+}
+
+.inside {
+	padding:var(--st-card-padding)!important;
+	margin:var(--st-card-margin)!important;
+	background:var(--st-card-background)!important;
+	border: var(--st-card-border-width) solid var(--st-card-border-color)!important;
+	border-radius: var(--st-card-border-radius)!important;
+}
