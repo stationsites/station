@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(178,141,67,0)"/>
+<g transform="matrix(8.9044 0 0 8.9044 540.0002 520.8536)" id="779415">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(0.0225 0 0 -0.0225 0.0793 -20.6914)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-2546.7881, -3353.2142)" d="M 2445 4374 c -136 -19 -191 -29 -260 -51 c -298 -94 -580 -332 -718 -609 c -14 -27 -41 -96 -61 -152 c -118 -341 -72 -736 122 -1042 c 52 -83 143 -193 152 -183 c 4 4 44 90 89 191 l 81 183 l -45 92 c -68 139 -80 196 -79 372 c 0 133 3 159 26 231 c 91 283 306 490 590 566 c 115 30 298 30 413 -1 c 297 -80 517 -300 596 -596 c 16 -61 21 -109 21 -205 c 0 -151 -21 -244 -85 -371 l -43 -85 l 85 -192 l 85 -192 l 24 23 c 44 39 136 171 179 252 c 93 180 135 354 135 560 c 1 209 -39 377 -132 561 c -61 119 -126 207 -227 306 c -165 162 -378 275 -605 321 c -77 16 -286 29 -343 21 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(0.0225 0 0 -0.0225 0.0075 8.4251)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-2543.5966, -2059.1501)" d="M 2454 3615 c -135 -29 -249 -119 -307 -242 c -30 -64 -32 -74 -32 -184 c 0 -113 1 -117 37 -190 c 20 -41 48 -85 62 -98 l 25 -23 l -23 -52 c -13 -28 -99 -220 -191 -426 c -92 -206 -175 -393 -185 -415 c -10 -22 -119 -267 -243 -545 c -124 -278 -268 -602 -321 -720 c -53 -118 -96 -218 -96 -222 c 0 -4 125 -8 278 -8 l 278 0 l 399 973 c 219 534 401 975 404 979 c 3 4 186 -433 407 -970 l 401 -977 l 282 -3 c 225 -2 282 0 278 10 c -3 7 -54 123 -115 258 c -219 489 -327 731 -469 1050 c -80 179 -186 415 -235 525 c -49 110 -123 275 -164 368 l -75 167 l 40 56 c 79 111 108 243 77 361 c -22 88 -50 138 -114 205 c -66 69 -148 112 -242 127 c -78 13 -79 13 -156 -4 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
