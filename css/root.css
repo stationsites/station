@@ -73,7 +73,7 @@ input#publish.button-primary {
 }
 
 
-input:not(.components-text-control__input, [type="checkbox"], [type="radio"]), select, textarea {
+input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input), select, textarea {
 	padding:var(--st-input-padding)!important;
 	margin:var(--st-input-margin)!important;
 	font: var(--st-input-font)!important;
