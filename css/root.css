@@ -1,5 +1,6 @@
 #titlediv > div.inside,
-.pp-ext-promo , .uip-logo
+.pp-ext-promo , .uip-logo,
+.fc_segment_menu
 {display:none!important;}
 
 #wpcontent {
