@@ -2,7 +2,8 @@
 .pp-ext-promo , .uip-logo,
 .fc_segment_menu,
 #accordion-section-themes,
-#customize-info
+#customize-info,
+.menu_logo_holder
 {display:none!important;}
 
 #wpcontent {
@@ -150,3 +151,5 @@ input:focused, select:focused, textarea:focused  {
  .sui-vertical-tab {
 background:transparent!important;
 	 padding: 5px 15px;}
+/***FL***/
+.fframe_main-menu-items {background:transparent!important;}
