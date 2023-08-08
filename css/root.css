@@ -10,7 +10,8 @@
 }
 
 
-.button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button, .ct-options-container button), li a:not(.ct-options-container li a),
+.button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button, .ct-options-container button, .customize-section-title button), 
+li a:not(.ct-options-container li a, .ct-options-container a,),
 a.page-title-action {
 	padding:var(--st-btn-padding)!important;
 	margin:var(--st-btn-margin)!important;
@@ -76,7 +77,8 @@ input#publish.button-primary {
 }
 
 
-input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input), select, textarea {
+input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input, .ct-control input), 
+select, textarea {
 	padding:var(--st-input-padding)!important;
 	margin:var(--st-input-margin)!important;
 	font: var(--st-input-font)!important;
