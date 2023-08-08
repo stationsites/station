@@ -118,7 +118,7 @@ input:focused, select:focused, textarea:focused  {
 }
 
 
-.postbox-header {
+.postbox-header, .sui-box-header {
 	padding:var(--st-head-padding)!important;
 	margin:var(--st-head-margin)!important;
 	font: var(--st-head-font)!important;
@@ -133,10 +133,18 @@ input:focused, select:focused, textarea:focused  {
     justify-content: var(--st-head-justify-content);
 }
 
-.inside {
+.inside, .sui-box-body {
 	padding:var(--st-card-padding)!important;
 	margin:var(--st-card-margin)!important;
 	background:var(--st-card-background)!important;
 	border: var(--st-card-border-width) solid var(--st-card-border-color)!important;
 	border-radius: var(--st-card-border-radius)!important;
 }
+
+
+
+/***MUDEV***/
+
+ .sui-vertical-tab {
+background:transparent!important;
+	 padding: 5px 15px;}
