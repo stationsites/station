@@ -10,7 +10,7 @@
 }
 
 
-.button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button), li a,
+.button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button), li a:not(.ct-options-container li a),
 a.page-title-action {
 	padding:var(--st-btn-padding)!important;
 	margin:var(--st-btn-margin)!important;
@@ -30,7 +30,6 @@ li a:hover {
 	border-color:var(--st-btn-hov-border-color);
 }
 
-li.
 li:hover {
 	padding:var(--st-li-a-padding);
 	background:var(--st-li-a-background);
