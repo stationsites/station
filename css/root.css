@@ -1,6 +1,8 @@
 #titlediv > div.inside,
 .pp-ext-promo , .uip-logo,
-.fc_segment_menu
+.fc_segment_menu,
+#accordion-section-themes,
+#customize-info
 {display:none!important;}
 
 #wpcontent {
