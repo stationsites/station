@@ -6,12 +6,17 @@ function hexToRgb(hex) {
     return `${red}, ${green}, ${blue}`;
 }
 
-const paletteColor1Hex = "#a8977b";
-const paletteColor2Hex = "#7f715c";
-const paletteColor3Hex = "#3f4245";
-const paletteColor4Hex = "#111518";
+const paletteColor1Hex = getComputedStyle(document.documentElement).getPropertyValue('--paletteColor1').trim();
+const paletteColor2Hex = getComputedStyle(document.documentElement).getPropertyValue('--paletteColor2').trim();
+const paletteColor3Hex = getComputedStyle(document.documentElement).getPropertyValue('--paletteColor3').trim();
+const paletteColor4Hex = getComputedStyle(document.documentElement).getPropertyValue('--paletteColor4').trim();
 
 const brzGlobalColor1 = hexToRgb(paletteColor1Hex);
 const brzGlobalColor2 = hexToRgb(paletteColor2Hex);
 const brzGlobalColor3 = hexToRgb(paletteColor3Hex);
 const brzGlobalColor4 = hexToRgb(paletteColor4Hex);
+
+document.documentElement.style.setProperty('--brz-global-color1', brzGlobalColor1);
+document.documentElement.style.setProperty('--brz-global-color2', brzGlobalColor2);
+document.documentElement.style.setProperty('--brz-global-color3', brzGlobalColor3);
+document.documentElement.style.setProperty('--brz-global-color4', brzGlobalColor4);
