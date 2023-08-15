@@ -3,7 +3,8 @@
 .fc_segment_menu,
 #accordion-section-themes,
 #customize-info,
-.menu_logo_holder
+.menu_logo_holder,
+#wp-admin-bar-attr
 {display:none!important;}
 
 #wpcontent {
