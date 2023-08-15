@@ -20,3 +20,6 @@ document.documentElement.style.setProperty('--global-color1', brzGlobalColor1);
 document.documentElement.style.setProperty('--global-color2', brzGlobalColor2);
 document.documentElement.style.setProperty('--global-color3', brzGlobalColor3);
 document.documentElement.style.setProperty('--global-color4', brzGlobalColor4);
+
+console.log("brzGlobalColor1:", brzGlobalColor1);
+console.log("brzGlobalColor2:", brzGlobalColor2);
