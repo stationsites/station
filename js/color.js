@@ -16,7 +16,7 @@ const brzGlobalColor2 = hexToRgb(paletteColor2Hex);
 const brzGlobalColor3 = hexToRgb(paletteColor3Hex);
 const brzGlobalColor4 = hexToRgb(paletteColor4Hex);
 
-document.documentElement.style.setProperty('--brz-global-color1', brzGlobalColor1);
-document.documentElement.style.setProperty('--brz-global-color2', brzGlobalColor2);
-document.documentElement.style.setProperty('--brz-global-color3', brzGlobalColor3);
-document.documentElement.style.setProperty('--brz-global-color4', brzGlobalColor4);
+document.documentElement.style.setProperty('--global-color1', brzGlobalColor1);
+document.documentElement.style.setProperty('--global-color2', brzGlobalColor2);
+document.documentElement.style.setProperty('--global-color3', brzGlobalColor3);
+document.documentElement.style.setProperty('--global-color4', brzGlobalColor4);
