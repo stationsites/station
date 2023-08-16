@@ -4,8 +4,15 @@
 #accordion-section-themes,
 #customize-info,
 .menu_logo_holder,
-#wp-admin-bar-attr
-{display:none!important;}
+#wp-admin-bar-attr,
+.brz-ed .brz-ed-option__block,
+.brz-ed .brz-ed-option__color-palette-editor {
+        display:none!important;
+    }
+
+.brz-ed .brz-ed-option__font-styles--add .brz-span::after {
+    margin-left: 2px;
+    content: "Font Style";}
 
 #wpcontent {
     padding: 20px 50px;
