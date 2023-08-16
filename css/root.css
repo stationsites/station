@@ -4,15 +4,9 @@
 #accordion-section-themes,
 #customize-info,
 .menu_logo_holder,
-#wp-admin-bar-attr,
-.brz-ed .brz-ed-option__block,
-.brz-ed .brz-ed-option__color-palette-editor {
+#wp-admin-bar-attr {
         display:none!important;
     }
-
-.brz-ed .brz-ed-option__font-styles--add .brz-span::after {
-    margin-left: 2px;
-    content: "Font Style";}
 
 #wpcontent {
     padding: 20px 50px;
@@ -86,7 +80,7 @@ input#publish.button-primary {
 }
 
 
-input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input, .ct-control input), 
+input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input, .ct-control input, .brz-ed input), 
 select, textarea {
 	padding:var(--st-input-padding)!important;
 	margin:var(--st-input-margin)!important;
