@@ -159,3 +159,12 @@ background:transparent!important;
 	 padding: 5px 15px;}
 /***FL***/
 .fframe_main-menu-items {background:transparent!important;}
+
+/**storefront**/
+
+.woocommerce-BlankState a.button-primary, 
+.woocommerce-BlankState button.button-primary, 
+.woocommerce-message a.button-primary, 
+.woocommerce-message button.button-primary {
+	text-shadow:none!important;
+}
