@@ -96,7 +96,7 @@ select, textarea {
 	height: auto!important;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox] {
 	padding:var(--st-check-padding)!important;
 	margin:var(--st-check-margin)!important;
 	font: var(--st-check-font)!important;
@@ -111,6 +111,21 @@ input[type=checkbox]:checked {
 	background-color:var(--uip-color-primary)!important;
 
 }
+
+ input[type=radio] {
+	padding:var(--st-radio-padding)!important;
+	margin:var(--st-radio-margin)!important;
+	font: var(--st-radio-font)!important;
+	border: var(--st-radio-border-width) solid var(--st-radio-border-color)!important;
+	border-radius: var(--st-radio-border-radius)!important;
+	color:var(--st-radio-color)!important;
+	background-color:var(--st-radio-background)!important;
+	height: auto!important;
+}
+
+input[type=radio]:checked::before {
+    width: 1rem;
+    height: 1rem;}
 
 input:hover, select:hover, textarea:hover,
 input:active, select:active, textarea:active,
@@ -172,8 +187,7 @@ background:transparent!important;
 
 /***tickets***/
 label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio] #text{
-	visibility:hidden;
+	display:none;
 }
 label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio]::after {
-    content: "Storefront";
-    position: absolute;}
+    content: "Storefront";}
