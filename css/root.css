@@ -5,7 +5,6 @@
 #customize-info,
 .menu_logo_holder,
 #wp-admin-bar-attr,
-.woocommerce_page_wc-settings .woocommerce  #mainform nav.woo-nav-tab-wrapper:has(a:nth-child(9).nav-tab-active) > ul.subsubsub > li:nth-child(6),
 #mainform > nav.woo-nav-tab-wrapper > a:nth-child(8){
         display:none!important;
     }
