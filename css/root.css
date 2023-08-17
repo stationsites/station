@@ -6,7 +6,8 @@
 .menu_logo_holder,
 #wp-admin-bar-attr,
 #mainform > nav.woo-nav-tab-wrapper > a:nth-child(8),
-.woocommerce-BlankState a.button-primary {
+.post-type-shop_coupon #posts-filter > div.tablenav.bottom > div.woocommerce-BlankState > a:nth-child(3),
+.woocommerce_page_wc-orders .woocommerce-BlankState a.button-primary {
         display:none!important;
     }
 
