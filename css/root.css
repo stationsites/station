@@ -168,3 +168,12 @@ background:transparent!important;
 .woocommerce-message button.button-primary {
 	text-shadow:none!important;
 }
+
+
+/***tickets***/
+label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio] #text{
+	visibility:hidden;
+}
+label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio]::after {
+    content: "Storefront";
+    position: absolute;}
