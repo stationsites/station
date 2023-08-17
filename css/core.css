@@ -97,6 +97,16 @@ html {
     --st-check-color:var(--uip-color-base);
 }
 
+html {
+    --st-radio-margin:var(--uip-margin-xxxs);
+    --st-radio-padding: var(--uip-padding-xs);
+    --st-radio-border-radius: var(--uip-border-radius);
+    --st-radio-border-width: var(--uip-button-border-width);
+    --st-radio-border-style:solid;
+    --st-radio-border-color:transparent;
+    --st-radio-background: var(--uip-color-base-2);
+    --st-radio-color:var(--uip-color-base);
+}
 
 /***hover + active***/
 
