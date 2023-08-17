@@ -4,7 +4,8 @@
 #accordion-section-themes,
 #customize-info,
 .menu_logo_holder,
-#wp-admin-bar-attr {
+#wp-admin-bar-attr,
+.woocommerce #mainform > ul > li:nth-child(6) {
         display:none!important;
     }
 
