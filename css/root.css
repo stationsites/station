@@ -5,7 +5,8 @@
 #customize-info,
 .menu_logo_holder,
 #wp-admin-bar-attr,
-#mainform > nav.woo-nav-tab-wrapper > a:nth-child(8){
+#mainform > nav.woo-nav-tab-wrapper > a:nth-child(8),
+.woocommerce-BlankState a.button-primary {
         display:none!important;
     }
 
