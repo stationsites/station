@@ -204,11 +204,12 @@ background:transparent!important;
 
 
 /***tickets***/
-label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio] {
-	display:none;
+label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio],
+li#select2-default_provider_handler-select-result-qggn-Tribe__Tickets_Plus__Commerce__WooCommerce__Main{
 	font-size:0px;
 }
-label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio]::after {
+label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio]::after,
+li#select2-default_provider_handler-select-result-qggn-Tribe__Tickets_Plus__Commerce__WooCommerce__Main::after {
     content: "Storefront";
 	font-size:12px;
 }
