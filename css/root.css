@@ -17,7 +17,8 @@ a[href*="evnt.is"], a[href*="https://theeventscalendar"],
 #tribe-field-tec-tickets-emails-footer-credit,
 .tickets_page_tec-tickets-settings a#integrations,
 #event-tickets-telemetry-settings, #tribe-field-tec-tickets-emails-ticket-include-qr-codes,
-#tribe-import-ea-disable, #tribe-field-tribe_aggregator_disable
+#tribe-import-ea-disable, #tribe-field-tribe_aggregator_disable,
+#tribe-field-toggle_blocks_editor
 {
         display:none!important;
     }
