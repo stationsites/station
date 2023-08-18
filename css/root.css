@@ -14,7 +14,8 @@
 .tec-settings-infobox,
 #tribe-field-debugEvents,
 #tribe-field-opt-in-status,
-a#licenses
+a#licenses,
+a[href*="evnt.is"] 
 {
         display:none!important;
     }
