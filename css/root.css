@@ -8,7 +8,13 @@
 #mainform > nav.woo-nav-tab-wrapper > a:nth-child(8),
 .post-type-shop_coupon #posts-filter > div.tablenav.bottom > div.woocommerce-BlankState > a:nth-child(3),
 .woocommerce_page_wc-orders .woocommerce-BlankState a.button-primary,
-.woocommerce-feature-enabled-activity-panels .woocommerce-layout__header {
+.woocommerce-feature-enabled-activity-panels .woocommerce-layout__header,
+.tec-settings-header,
+.tec-settings-general-debugging,
+.tec-settings-infobox,
+#tribe-field-debugEvents,
+#tribe-field-opt-in-status
+{
         display:none!important;
     }
 
