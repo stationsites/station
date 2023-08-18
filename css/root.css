@@ -15,7 +15,10 @@
 #tribe-field-debugEvents,
 #tribe-field-opt-in-status,
 a#licenses,
-a[href*="evnt.is"] 
+a[href*="evnt.is"],
+a[href*="theeventscalendar"],
+#tribe-field-tec-tickets-emails-footer-credit,
+.tickets_page_tec-tickets-settings a#integrations
 {
         display:none!important;
     }
