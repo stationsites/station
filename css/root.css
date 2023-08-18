@@ -121,6 +121,8 @@ input[type=checkbox]:checked {
 	color:var(--st-radio-color)!important;
 	background-color:var(--st-radio-background)!important;
 	height: auto!important;
+	min-height: 35px!important;
+   	width: 35px;
 }
 
 input[type=radio]:checked::before {
@@ -186,8 +188,11 @@ background:transparent!important;
 
 
 /***tickets***/
-label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio] #text{
+label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio] {
 	display:none;
+	font-size:0px;
 }
 label[for=provider_Tribe__Tickets_Plus__Commerce__WooCommerce__Main_radio]::after {
-    content: "Storefront";}
+    content: "Storefront";
+	font-size:12px;
+}
