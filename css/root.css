@@ -13,7 +13,8 @@
 .tec-settings-general-debugging,
 .tec-settings-infobox,
 #tribe-field-debugEvents,
-#tribe-field-opt-in-status
+#tribe-field-opt-in-status,
+a#licenses
 {
         display:none!important;
     }
