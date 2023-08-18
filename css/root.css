@@ -9,16 +9,17 @@
 .post-type-shop_coupon #posts-filter > div.tablenav.bottom > div.woocommerce-BlankState > a:nth-child(3),
 .woocommerce_page_wc-orders .woocommerce-BlankState a.button-primary,
 .woocommerce-feature-enabled-activity-panels .woocommerce-layout__header,
-.tec-settings-header,
-.tec-settings-general-debugging,
+.tec-settings-header, .tec-tickets__admin-banner,
+#tec-settings-general-debugging,
 .tec-settings-infobox,
 #tribe-field-debugEvents,
 #tribe-field-opt-in-status,
 a#licenses,
 a[href*="evnt.is"],
-a[href*="theeventscalendar"],
+a[href*="https://theeventscalendar"],
 #tribe-field-tec-tickets-emails-footer-credit,
-.tickets_page_tec-tickets-settings a#integrations
+.tickets_page_tec-tickets-settings a#integrations,
+#event-tickets-telemetry-settings, #tribe-field-tec-tickets-emails-ticket-include-qr-codes
 {
         display:none!important;
     }
@@ -107,6 +108,10 @@ select, textarea {
 	height: auto!important;
 }
 
+label {
+	line-height:35px;
+}
+
 input[type=checkbox] {
 	padding:var(--st-check-padding)!important;
 	margin:var(--st-check-margin)!important;
@@ -116,6 +121,7 @@ input[type=checkbox] {
 	color:var(--st-check-color)!important;
 	background-color:var(--st-check-background)!important;
 	height: auto!important;
+	margin-right:10px;
 }
 
 input[type=checkbox]:checked {
@@ -134,6 +140,7 @@ input[type=checkbox]:checked {
 	height: auto!important;
 	min-height: 35px!important;
    	width: 35px;
+	margin-right:10px;
 }
 
 input[type=radio]:checked::before {
