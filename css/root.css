@@ -10,16 +10,14 @@
 .woocommerce_page_wc-orders .woocommerce-BlankState a.button-primary,
 .woocommerce-feature-enabled-activity-panels .woocommerce-layout__header,
 .tec-settings-header, .tec-tickets__admin-banner,
-#tec-settings-general-debugging,
-.tec-settings-infobox,
-#tribe-field-debugEvents,
-#tribe-field-opt-in-status,
+#tec-settings-general-debugging, #modern-tribe-info, .tec-settings-infobox,
+#tribe-field-debugEvents, #tribe-field-opt-in-status,
 a#licenses,
-a[href*="evnt.is"],
-a[href*="https://theeventscalendar"],
+a[href*="evnt.is"], a[href*="https://theeventscalendar"],
 #tribe-field-tec-tickets-emails-footer-credit,
 .tickets_page_tec-tickets-settings a#integrations,
-#event-tickets-telemetry-settings, #tribe-field-tec-tickets-emails-ticket-include-qr-codes
+#event-tickets-telemetry-settings, #tribe-field-tec-tickets-emails-ticket-include-qr-codes,
+#tribe-import-ea-disable, #tribe-field-tribe_aggregator_disable
 {
         display:none!important;
     }
