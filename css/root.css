@@ -30,12 +30,13 @@ a[href*="evnt.is"], a[href*="https://theeventscalendar"],
 position: absolute;
     z-index: -1;
     opacity: .15;
-    font-weight: 800;
-    color: var(--uip-color-primary-lighter);
-    font-family: 'Montserrat';
+    font-weight: 800!important;
+    color: var(--uip-color-primary-lighter)!important;
+    font-family: 'Montserrat'!importat;
     text-transform: lowercase;
     left: -80px;
-    top: -120px;}
+    top: -120px;
+font-size:15vw!important;}
 
 /***BUTTONS***/
 
