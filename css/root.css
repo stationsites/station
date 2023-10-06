@@ -114,6 +114,11 @@ input#publish.button-primary {
 }
 
 
+.subsubsub a span,
+.subsubsub #text {
+    color: var(--uip-text-color-muted);
+}
+
 /******INPUTS******/
 
 input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input, .ct-control input, .brz-ed input, .brz-input), 
