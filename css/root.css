@@ -22,7 +22,8 @@ a[href*="evnt.is"], a[href*="https://theeventscalendar"],
 {
         display:none!important;
     }
-body {
+body,
+[uip-admin-theme=true] body {
     background: var(--uip-color-base-0)!important;
 }
 #wpcontent {
