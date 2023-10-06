@@ -26,6 +26,16 @@ a[href*="evnt.is"], a[href*="https://theeventscalendar"],
 #wpcontent {
     padding: 20px 50px;
 }
+.wrap h1.wp-heading-inline{
+position: absolute;
+    z-index: -1;
+    opacity: .15;
+    font-weight: 800;
+    color: var(--uip-color-primary-lighter);
+    font-family: 'Montserrat';
+    text-transform: lowercase;
+    left: -80px;
+    top: -120px;}
 
 /***BUTTONS***/
 
