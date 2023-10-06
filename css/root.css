@@ -131,7 +131,7 @@ select, textarea {
 	background:var(--st-input-background)!important;
 	color:var(--st-input-color)!important;
 	height: auto!important;
-	width: 100%!important;
+	width: 100%;
 }
 
 label {
