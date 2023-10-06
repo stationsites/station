@@ -88,7 +88,7 @@ html {
 
 html {
     --st-check-margin:var(--uip-margin-xxxs);
-    --st-check-padding: var(--uip-padding-s);
+    --st-check-padding: var(--uip-padding-xs);
     --st-check-border-radius: var(--uip-border-radius);
     --st-check-border-width: var(--uip-button-border-width);
     --st-check-border-style:solid;
@@ -99,7 +99,7 @@ html {
 
 html {
     --st-radio-margin:var(--uip-margin-xxxs);
-    --st-radio-padding: var(--uip-padding-xs);
+    --st-radio-padding: var(--uip-padding-xxs);
     --st-radio-border-radius: var(--uip-border-radius);
     --st-radio-border-width: var(--uip-button-border-width);
     --st-radio-border-style:solid;
