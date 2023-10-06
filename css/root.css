@@ -27,6 +27,7 @@ a[href*="evnt.is"], a[href*="https://theeventscalendar"],
     padding: 20px 50px;
 }
 
+/***BUTTONS***/
 
 .button, button:not(.uip-button-default, .components-button, #wp-content-editor-container button, .ct-options-container button, .customize-section-title button), 
 li a:not(.ct-options-container li a, .ct-options-container a,),
@@ -63,6 +64,9 @@ li a.current {
 	border-color:var(--st-btn-act-border-color)!important;
 }
 
+
+/***primary***/
+
 .button.primary, 
 .page-title-action,
 .button-primary,
@@ -80,6 +84,8 @@ input#publish.button-primary {
 	border-color:var(--st-btn-pri-hov-border-color);
 }
 
+/***secondary***/
+
 .button.secondary, 
 .button-secondary {
 	background:var(--st-btn-sec-background)!important;
@@ -94,6 +100,21 @@ input#publish.button-primary {
 	border-color:var(--st-btn-sec-hov-border-color);
 }
 
+/***submenu***/
+.subsubsub a {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--uip-text-color-muted);
+    padding: var(--uip-padding-xxs);
+    padding-top: var(--uip-padding-xxxs);
+    padding-bottom: var(--uip-padding-xxxs);
+    border-radius: var(--uip-border-radius);
+    background-color: var(--uip-color-base-1);
+    margin-right: 0;
+}
+
+
+/******INPUTS******/
 
 input:not(.components-text-control__input, [type="checkbox"], [type="radio"], #uip-menu-creator-app input, .ct-options-container input, .ct-control input, .brz-ed input, .brz-input), 
 select, textarea {
@@ -111,6 +132,8 @@ select, textarea {
 label {
 	line-height:35px;
 }
+
+/***checkbox***/
 
 input[type=checkbox] {
 	padding:var(--st-check-padding)!important;
@@ -139,6 +162,8 @@ input[type=checkbox]:checked {
     background-position: center;
 }
 
+/***radio***/
+
  input[type=radio] {
 	padding:var(--st-radio-padding)!important;
 	margin:var(--st-radio-margin)!important;
@@ -157,6 +182,7 @@ input[type=radio]:checked::before {
     width: .75rem;
     height: .75rem;}
 
+/***active***/
 input:hover, select:hover, textarea:hover,
 input:active, select:active, textarea:active,
 input:focused, select:focused, textarea:focused  {
@@ -165,12 +191,17 @@ input:focused, select:focused, textarea:focused  {
 	border-color:var(--st-input-act-border-color);
 }
 
+
+
+/******BOXES******/
+
 .postbox {
 	padding:var(--st-cont-padding)!important;
 	margin:var(--st-cont-margin)!important;
 	border-color: var(--st-cont-border-color)!important;
 }
 
+/***header***/
 
 .postbox-header, .sui-box-header {
 	padding:var(--st-head-padding)!important;
@@ -186,6 +217,8 @@ input:focused, select:focused, textarea:focused  {
     align-items: var(--st-head-align-items);
     justify-content: var(--st-head-justify-content);
 }
+
+/***body***/
 
 .inside, .sui-box-body {
 	padding:var(--st-card-padding)!important;
