@@ -102,12 +102,12 @@ input#publish.button-primary {
 
 /***submenu***/
 .subsubsub a {
-    display: inline-block;
-    font-size: 13px;
+font-family: montserrat;
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 14px!important;
     color: var(--uip-text-color-muted);
-    padding: var(--uip-padding-xs);
-    padding-top: var(--uip-padding-xxs);
-    padding-bottom: var(--uip-padding-xxs);
+    padding: var(--uip-padding-xxs) var(--uip-padding-s)!important;
     border-radius: var(--uip-border-radius);
     background-color: var(--uip-color-base-1);
     margin-right: 0;
@@ -159,6 +159,7 @@ input[type=checkbox] {
     background-repeat: no-repeat;
     padding: 10px;
     background-position: center;
+	opacity:.5;
 }
 
 input[type=checkbox]:checked {
@@ -168,6 +169,7 @@ input[type=checkbox]:checked {
     background-repeat: no-repeat;
     padding: 10px;
     background-position: center;
+	opacity:1;
 }
 
 /***radio***/
