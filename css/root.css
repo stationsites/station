@@ -120,13 +120,23 @@ input[type=checkbox] {
 	border-radius: var(--st-check-border-radius)!important;
 	color:var(--st-check-color)!important;
 	background-color:var(--st-check-background)!important;
-	height: auto!important;
+	height: 1.5rem!important;
+	width:1.5rem!important;
 	margin-right:10px!important;
+	    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij48cGF0aCBkPSJNIDE5Ljk4MDQ2OSA1Ljk5MDIzNDQgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDE5LjI5Mjk2OSA2LjI5Mjk2ODggTCA5IDE2LjU4NTkzOCBMIDUuNzA3MDMxMiAxMy4yOTI5NjkgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDQuMjkyOTY4OCAxNC43MDcwMzEgTCA4LjI5Mjk2ODggMTguNzA3MDMxIEEgMS4wMDAxIDEuMDAwMSAwIDAgMCA5LjcwNzAzMTIgMTguNzA3MDMxIEwgMjAuNzA3MDMxIDcuNzA3MDMxMiBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMTkuOTgwNDY5IDUuOTkwMjM0NCB6Ii8+PC9zdmc+);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center;
 }
 
 input[type=checkbox]:checked {
 	background-color:var(--uip-color-primary)!important;
-
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij48cGF0aCBkPSJNIDE5Ljk4MDQ2OSA1Ljk5MDIzNDQgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDE5LjI5Mjk2OSA2LjI5Mjk2ODggTCA5IDE2LjU4NTkzOCBMIDUuNzA3MDMxMiAxMy4yOTI5NjkgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDQuMjkyOTY4OCAxNC43MDcwMzEgTCA4LjI5Mjk2ODggMTguNzA3MDMxIEEgMS4wMDAxIDEuMDAwMSAwIDAgMCA5LjcwNzAzMTIgMTguNzA3MDMxIEwgMjAuNzA3MDMxIDcuNzA3MDMxMiBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMTkuOTgwNDY5IDUuOTkwMjM0NCB6Ii8+PC9zdmc+);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center;
 }
 
  input[type=radio] {
