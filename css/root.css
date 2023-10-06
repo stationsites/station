@@ -105,15 +105,18 @@ input#publish.button-primary {
     display: inline-block;
     font-size: 13px;
     color: var(--uip-text-color-muted);
-    padding: var(--uip-padding-xxs);
-    padding-top: var(--uip-padding-xxxs);
-    padding-bottom: var(--uip-padding-xxxs);
+    padding: var(--uip-padding-xs);
+    padding-top: var(--uip-padding-xxs);
+    padding-bottom: var(--uip-padding-xxs);
     border-radius: var(--uip-border-radius);
     background-color: var(--uip-color-base-1);
     margin-right: 0;
 }
 
-
+.subsubsub {
+    align-items: center;
+	    color: var(--uip-text-color-muted);
+}
 .subsubsub a span,
 .subsubsub #text {
     color: var(--uip-text-color-muted);
