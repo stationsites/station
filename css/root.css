@@ -59,7 +59,8 @@ a.page-title-action,
 
 .button:hover,
 button:hover,
-li a:hover {
+li a:hover,
+.wp-core-ui .button:hover{
 	background:var(--st-btn-hov-background);
 	color:var(--st-btn-hov-color);
 	border-color:var(--st-btn-hov-border-color);
