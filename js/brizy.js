@@ -1,7 +1,7 @@
 / Function to fetch remote domainImages and set background image for the parent section
 async function setBackgroundImage() {
     // Fetch the remote JSON file
-    const response = await fetch('https://example.com/images.json');
+    const response = await fetch('https://raw.githubusercontent.com/64bakerst/station/main/js/brizy.json');
 
     if (response.ok) {
         // Parse the JSON response
