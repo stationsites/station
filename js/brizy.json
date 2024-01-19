@@ -3,5 +3,4 @@
     "domain1.com": "url_to_image_1.jpg",
     "domain2.com": "url_to_image_2.jpg",
     "domain3.com": "url_to_image_3.jpg"
-    // Add more domains and corresponding image URLs as needed
 }
