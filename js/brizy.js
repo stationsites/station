@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Find all script elements with a specific class within sections
-  var scriptElements = document.querySelectorAll('section script.bry-express');
+  var scriptElements = document.querySelectorAll('section script.brz-express');
 
   // Iterate through each script element
   scriptElements.forEach(function(script) {
