@@ -1,22 +1,24 @@
-/ Function to fetch remote domainImages and set background image for the parent section
-async function setBackgroundImage() {
-    // Fetch the remote JSON file
-    const response = await fetch('https://raw.githubusercontent.com/64bakerst/station/main/js/brizy.json');
+// Starting from the script element
+var currentElement = document.querySelector('script');
 
-    if (response.ok) {
-        // Parse the JSON response
-        const domainImages = await response.json();
+// Traverse upward through nested <div> elements until a <section> is found
+while (currentElement && currentElement.tagName.toLowerCase() !== 'section') {
+  currentElement = currentElement.parentNode;
 
-        // Get the current domain
-        const currentDomain = window.location.hostname;
+  // Check if the current element is null (reached the top of the DOM)
+  if (!currentElement) {
+    console.error('Section not found in parent elements.');
+    break;
+  }
 
-        // Set the background image based on the domain for the parent section
-        const backgroundImageUrl = domainImages[currentDomain] || 'default_image.jpg';
-        document.querySelector('section').style.backgroundImage = `url("${backgroundImageUrl}")`;
-    } else {
-        console.error('Failed to fetch domainImages:', response.status, response.statusText);
-    }
+  // Optionally, you can add a check to stop if it encounters a <section>
+  if (currentElement.tagName.toLowerCase() === 'section') {
+    break;
+  }
 }
 
-// Call the function when the page loads
-window.onload = setBackgroundImage;
+// Check if the currentElement is a <section>
+if (currentElement && currentElement.tagName.toLowerCase() === 'section') {
+  // Modify the background image property
+  currentElement.style.backgroundImage = 'url("your-image-url.jpg")';
+}
