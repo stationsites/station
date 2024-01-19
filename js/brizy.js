@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Optionally, you can add a check to stop if it encounters a <section>
         if (currentElement.tagName.toLowerCase() === 'section') {
           // Modify the background image property
-          currentElement.style.backgroundImage = 'url("https://ls.brizy.express/get-a-license.jpg")';
+          currentElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
           break; // Stop further traversal for this section
         }
       }
