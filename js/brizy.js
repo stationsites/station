@@ -31,29 +31,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Optionally, you can add a check to stop if it encounters a <section>
             if (currentElement.tagName.toLowerCase() === 'section') {
-              // Apply styles to the section and use ::after for background image
-              currentElement.style.position = 'relative';
-              currentElement.style.overflow = 'hidden'; // Ensure ::after covers the entire section
-
-              currentElement.style::after {
-                content: '""';
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                background-image: url("https://brz-express.sirv.com/Images/get-a-license.png");
-                background-attachment: fixed;
-                background-size: 500px;
-                z-index: 999999999; // Higher z-index to cover content
-              };
-
-              // Set z-index of content and sub-divs
-              var contentAndSubDivs = currentElement.querySelectorAll(':not(::after)');
-              contentAndSubDivs.forEach(function(element) {
-                element.style.zIndex = '-1'; // Ensure they are behind ::after
-              });
-
+              // Modify the background image of ::after pseudo-element
+              
+              var afterElement = document.createElement('div');
+              afterElement.style.content = '""';
+              afterElement.style.position = 'absolute';
+              afterElement.style.top = '0';
+              afterElement.style.right = '0';
+              afterElement.style.bottom = '0';
+              afterElement.style.left = '0';
+              afterElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
+              afterElement.style.backgroundSize = 'cover'; // Adjust as needed
+              afterElement.style.zIndex = '9999999'; // Place behind other content
+              
+              currentElement.appendChild(afterElement);
+              
               break; // Stop further traversal for this section
             }
           }
