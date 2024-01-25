@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function() {
   // Fetch the list of allowed domains from an external source
   var xhr = new XMLHttpRequest();
@@ -33,8 +31,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Optionally, you can add a check to stop if it encounters a <section>
             if (currentElement.tagName.toLowerCase() === 'section') {
-              // Modify the background image property
-              currentElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
+              // Apply styles to the section and use ::after for background image
+              currentElement.style.position = 'relative';
+              currentElement.style.overflow = 'hidden'; // Ensure ::after covers the entire section
+
+              currentElement.style::after {
+                content: '""';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-image: url("https://brz-express.sirv.com/Images/get-a-license.png");
+                background-attachment: fixed;
+                background-size: 500px;
+                z-index: 999999999; // Higher z-index to cover content
+              };
+
+              // Set z-index of content and sub-divs
+              var contentAndSubDivs = currentElement.querySelectorAll(':not(::after)');
+              contentAndSubDivs.forEach(function(element) {
+                element.style.zIndex = '-1'; // Ensure they are behind ::after
+              });
+
               break; // Stop further traversal for this section
             }
           }
@@ -54,4 +73,3 @@ document.addEventListener('DOMContentLoaded', function() {
     return allowedDomains.includes(currentDomain);
   }
 });
-
