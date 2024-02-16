@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         scriptElements.forEach(function(script) {
           // Starting from the current script element
           var currentElement = script;
+          var sectionWithDivAdded = false; // Flag to track if a div has been added to the section
 
           // Traverse upward through nested <div> elements until a <section> is found
           while (currentElement && currentElement.tagName.toLowerCase() !== 'section') {
@@ -30,23 +31,25 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Optionally, you can add a check to stop if it encounters a <section>
-            if (currentElement.tagName.toLowerCase() === 'section') {
-              // Modify the background image of ::after pseudo-element
-              
-              var afterElement = document.createElement('div');
-              afterElement.style.content = '""';
-              afterElement.style.position = 'absolute';
-              afterElement.style.top = '0';
-              afterElement.style.right = '0';
-              afterElement.style.bottom = '0';
-              afterElement.style.left = '0';
-              afterElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
-              afterElement.style.backgroundSize = 'cover'; // Adjust as needed
-              afterElement.style.zIndex = '9999999'; // Place behind other content
-              
-              currentElement.appendChild(afterElement);
-              
-              break; // Stop further traversal for this section
+            if (currentElement.tagName.toLowerCase() === 'section' && !sectionWithDivAdded) {
+              // Check if a div with the specified class already exists in the section
+              if (!currentElement.querySelector('.license')) {
+                // Modify the background image of ::after pseudo-element
+                var afterElement = document.createElement('div');
+                afterElement.classList.add('license'); 
+                afterElement.style.content = '""';
+                afterElement.style.position = 'absolute';
+                afterElement.style.top = '0';
+                afterElement.style.right = '0';
+                afterElement.style.bottom = '0';
+                afterElement.style.left = '0';
+                afterElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
+                afterElement.style.backgroundSize = '350px'; 
+                afterElement.style.zIndex = '9999999'; 
+
+                currentElement.appendChild(afterElement);
+                sectionWithDivAdded = true; // Set flag to true indicating div added to section
+              }
             }
           }
         });
