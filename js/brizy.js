@@ -38,14 +38,14 @@ document.addEventListener('DOMContentLoaded', function() {
                             var afterElement = document.createElement('div');
                             afterElement.className = 'brz-express-div'; // Add a class for identification
                             afterElement.style.content = '""';
-                            afterElement.style.position = 'absolute!important';
-                            afterElement.style.top = '0!important';
-                            afterElement.style.right = '0!important';
-                            afterElement.style.bottom = '0!important';
-                            afterElement.style.left = '0!important';
-                            afterElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")!important';
-                            afterElement.style.backgroundSize = '350px!important';
-                            afterElement.style.zIndex = '9999999!important';
+                            afterElement.style.position = 'absolute';
+                            afterElement.style.top = '0';
+                            afterElement.style.right = '0';
+                            afterElement.style.bottom = '0';
+                            afterElement.style.left = '0';
+                            afterElement.style.backgroundImage = 'url("https://brz-express.sirv.com/Images/get-a-license.png")';
+                            afterElement.style.backgroundSize = '350px'; // Adjust as needed
+                            afterElement.style.zIndex = '9999999'; // Place behind other content
 
                             parentSection.appendChild(afterElement);
                             if (debuggingEnabled) {
